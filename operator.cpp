@@ -205,7 +205,7 @@ int main()
 
     int num;
     cout << "Enter number :" << endl;
-    cin >> num;4
+    cin >> num;
     if (num > 0)
     {
         cout << "It is positive number" << endl;
