@@ -402,8 +402,56 @@ int main()
   // }
   
 
+   /*
   
- 
+  1
+  01
+  101
+  0101
+  10101
 
+  */
+
+  bool val = true;
+  int n = 5;
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j <= i; j++)
+    {
+      cout << val << " ";
+      val = !val;
+    }
+    cout << endl;
+  }
+  
+
+
+  /*
+  
+      1
+     212
+    32123
+   4321234
+  543212345
+
+  */
+
+  // int n = 5;
+  // int num = 1;
+  // for (int i = 1; i <= n; i++)
+  // {
+  //   for (int j = 1; j <= n-i; j++)
+  //   {
+  //     cout << ' ';
+  //   }
+
+  //   for (int k = 1; k <= 2*i-1; k++)
+  //   {
+  //     cout << num;
+  //     ++num;
+  //   }
+  //   cout << endl;
+  // }
+  
   return 0;
 }
