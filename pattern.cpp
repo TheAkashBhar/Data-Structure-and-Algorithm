@@ -207,7 +207,7 @@ int main()
   // {
   //   for (int j = 1; j <= i; j++)
   //   {
-  //     cout << num;
+  //     cout << num++; // post increment
   //     num++;
   //   }
   //   cout << endl;
@@ -231,7 +231,7 @@ int main()
   //     cout << ' ';
   //   }
 
-  //   for (int k = 1; k <= 2 * i - 1; k++)
+  //   for (int k = 1; k <= 2 * i - 1; k++) // Odd
   //   {
   //     cout << '*';
   //   }
@@ -247,21 +247,21 @@ int main()
 
   */
 
-  int n = 5;
+  // int n = 5;
 
-  for (int i = n; i >= 1; i--)
-  {
-    for (int j = 1; j <= n - i; j++)
-    {
-      cout << ' ';
-    }
+  // for (int i = n; i >= 1; i--)
+  // {
+  //   for (int j = 1; j <= n - i; j++)
+  //   {
+  //     cout << ' ';
+  //   }
 
-    for (int k = 1; k <= 2 *i- 1; k++)
-    {
-      cout << '*';
-    }
-    cout << endl;
-  }
+  //   for (int k = 1; k <= 2 *i- 1; k++)
+  //   {
+  //     cout << '*';
+  //   }
+  //   cout << endl;
+  // }
 
 
   //Diamond pattern
@@ -280,35 +280,96 @@ int main()
       
    */
 
-   int n = 10;
+  //  int n = 10;
 
-  for (int i = 1; i <= n; i++)
-  {
-    for (int j = 1; j <= n - i; j++)
-    {
-      cout << ' ';
-    }
+  // for (int i = 1; i <= n; i++)
+  // {
+  //   for (int j = 1; j <= n - i; j++)
+  //   {
+  //     cout << ' ';
+  //   }
 
-    for (int k = 1; k <= 2 * i - 1; k++)
-    {
-      cout << '*';
-    }
-    cout << endl;
-  }
+  //   for (int k = 1; k <= 2 * i - 1; k++)
+  //   {
+  //     cout << '*';
+  //   }
+  //   cout << endl;
+  // }
 
-  for (int i = n; i >=1; i--)
-  {
-    for (int j = 1; j <= n - i; j++)
-    {
-      cout << ' ';
-    }
+  // for (int i = n; i >=1; i--)
+  // {
+  //   for (int j = 1; j <= n - i; j++)
+  //   {
+  //     cout << ' ';
+  //   }
 
-    for (int k = 1; k <= 2 * i - 1; k++) // 2*(n-1)+1
-    {
-      cout << '*';
-    }
-    cout << endl;
-  }
+  //   for (int k = 1; k <= 2 * i - 1; k++) // 2*(n-1)+1
+  //   {
+  //     cout << '*';
+  //   }
+  //   cout << endl;
+  // }
 
+  // Butterfly Pattern
+  
+  /*
+
+  *      * r1  1*-i
+  **    ** r2  2*-i
+  ***  *** r3  3*-i
+  ******** r4  4*-i
+  ********
+  ***  ***
+  **    **
+  *      *
+
+  */
+
+  // int n = 5;
+  // for (int i = 1; i <= n; i++)
+  // {
+  //   //star
+  //   for (int l = 1; l <= i; l++)
+  //   {
+  //     cout << '*';
+  //   }
+
+  //   //space
+  //   for (int r = 1; r <= 2*(n-i); r++)
+  //   {
+  //     cout << ' ';
+  //   }
+    
+  //   //star
+  //   for (int r1 = 1; r1 <= i; r1++)
+  //   {
+  //     cout << '*';
+  //   }
+  //   cout << endl;
+  // }
+
+  // // inverse
+  // for (int i = n; i >= 1; i--)
+  // {
+  //   //star
+  //   for (int l = 1; l <= i; l++)
+  //   {
+  //     cout << '*';
+  //   }
+
+  //   //space
+  //   for (int r = 1; r <= 2*(n-i); r++)
+  //   {
+  //     cout << ' ';
+  //   }
+    
+  //   //star
+  //   for (int r1 = 1; r1 <= i; r1++)
+  //   {
+  //     cout << '*';
+  //   }
+  //   cout << endl;
+  // }
+  
   return 0;
 }
