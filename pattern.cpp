@@ -412,19 +412,21 @@ int main()
 
   */
 
-  bool val = true;
-  int n = 5;
-  for (int i = 0; i < n; i++)
-  {
-    for (int j = 0; j <= i; j++)
-    {
-      cout << val << " ";
-      val = !val;
-    }
-    cout << endl;
-  }
+  // bool val = true;
+  // int n = 5;
+  // for (int i = 0; i < n; i++)
+  // {
+  //   for (int j = 0; j <= i; j++)
+  //   {
+  //     cout << val << " ";
+  //     val = !val;
+  //   }
+  //   cout << endl;
+  // }
   
 
+
+  //Palindromic pattern
 
   /*
   
@@ -436,22 +438,26 @@ int main()
 
   */
 
-  // int n = 5;
-  // int num = 1;
-  // for (int i = 1; i <= n; i++)
-  // {
-  //   for (int j = 1; j <= n-i; j++)
-  //   {
-  //     cout << ' ';
-  //   }
+  int n = 5;
+  int num = 1;
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = 1; j <= n-i; j++)
+    {
+      cout << ' ';
+    }
 
-  //   for (int k = 1; k <= 2*i-1; k++)
-  //   {
-  //     cout << num;
-  //     ++num;
-  //   }
-  //   cout << endl;
-  // }
+    for (int k = i; k>=1; k--)
+    {
+      cout << k;
+    }
+
+    for (int l = 2; l <= i; l++)
+    {
+      cout << l;
+    }
+    cout << endl;
+  }
   
   return 0;
 }
