@@ -18,16 +18,16 @@ int main()
   */
 
   // outer loop
-  // for (int i = 1; i <= 4; i++) // For row
-  // {
-  //     // inner loop
-  //     for (int j = 1; j <= 4; j++)  // For column
-  //     {
-  //         cout << i << " ";
-  //     }
-  //     cout << endl;
+  for (int i = 1; i <= 4; i++) // For row
+  {
+      // inner loop
+      for (int j = 1; j <= 4; j++)  // For column
+      {
+          cout << i << " ";
+      }
+      cout << endl;
 
-  // }
+  }
 
   // Pyramid
 
@@ -40,15 +40,15 @@ int main()
 
   */
 
-  // for (int i = 1; i <=4; i++)
-  // {
-  //     for (int j = 1; j <= i ; j++)
-  //     {
-  //         cout << '*';
-  //     }
-  //     cout << endl;
+  for (int i = 1; i <=4; i++)
+  {
+      for (int j = 1; j <= i ; j++)
+      {
+          cout << '*';
+      }
+      cout << endl;
 
-  // }
+  }
 
   // Inverted Pyramid
 
@@ -61,16 +61,16 @@ int main()
 
   */
 
-  // int n = 7;
+  int n = 7;
 
-  // for (int i = 1; i <= n; i++)
-  // {
-  //     for (int j = 1; j <= (n-i+1); j++)
-  //     {
-  //         cout << '*';
-  //     }
-  //     cout << endl;
-  // }
+  for (int i = 1; i <= n; i++)
+  {
+      for (int j = 1; j <= (n-i+1); j++)
+      {
+          cout << '*';
+      }
+      cout << endl;
+  }
 
   // Half pyramid patter
 
@@ -83,14 +83,14 @@ int main()
 
   */
 
-  // for (int i = 1; i <= 4; i++)
-  // {
-  //   for (int j = 1; j <= i; j++)
-  //   {
-  //     cout << j;
-  //   }
-  //   cout << endl;
-  // }
+  for (int i = 1; i <= 4; i++)
+  {
+    for (int j = 1; j <= i; j++)
+    {
+      cout << j;
+    }
+    cout << endl;
+  }
 
   /*
 
@@ -101,14 +101,14 @@ int main()
 
   */
 
-  // for (int i = 1; i <= 4; i++)
-  // {
-  //   for (int j = 1; j <= i; j++)
-  //   {
-  //     cout << i;
-  //   }
-  //   cout << endl;
-  // }
+  for (int i = 1; i <= 4; i++)
+  {
+    for (int j = 1; j <= i; j++)
+    {
+      cout << i;
+    }
+    cout << endl;
+  }
 
   /*
 
@@ -119,18 +119,18 @@ int main()
 
   */
 
-  //  char ch = 'A';
+   char ch = 'A';
 
-  //   for (int i = 1; i <=4; i++)
-  //   {
-  //     for (int j = 1; j <= i; j++)
-  //     {
-  //       cout << ch++; // post increment
-  //       ch++;
-  //     }
-  //     cout << endl;
+    for (int i = 1; i <=4; i++)
+    {
+      for (int j = 1; j <= i; j++)
+      {
+        cout << ch++; // post increment
+        ch++;
+      }
+      cout << endl;
 
-  //   }
+    }
 
   // Hollow Rectangle pattern
 
@@ -143,27 +143,27 @@ int main()
 
   */
 
-  // int n = 5;
+  int n = 5;
 
-  // for (int i = 1; i <= n; i++)
-  // {
-  //   cout << '*';
+  for (int i = 1; i <= n; i++)
+  {
+    cout << '*';
 
-  //   for (int j = 1; j <= n; j++)
-  //   {
-  //     if (i == 1 || i == n)
-  //     {
-  //       cout << '*';
-  //     }
-  //     else
-  //     {
-  //       cout << ' ';
-  //     }
-  //   }
-  //   cout << '*';
+    for (int j = 1; j <= n; j++)
+    {
+      if (i == 1 || i == n)
+      {
+        cout << '*';
+      }
+      else
+      {
+        cout << ' ';
+      }
+    }
+    cout << '*';
 
-  //   cout << endl;
-  // }
+    cout << endl;
+  }
 
   // Inverted and Rotated Pyramid
 
@@ -175,21 +175,21 @@ int main()
 
   */
 
-  // int n = 4;
+  int n = 4;
 
-  // for (int i = 1; i <= n; i++)
-  // {
-  //   for (int j = 1; j <= n - i; j++)
-  //   {
-  //     cout << ' ';
-  //   }
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = 1; j <= n - i; j++)
+    {
+      cout << ' ';
+    }
 
-  //   for (int k = 1; k <= i; k++)
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    for (int k = 1; k <= i; k++)
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
 
   // Floyd's Triangle
 
@@ -202,16 +202,16 @@ int main()
 
   */
 
-  // int num = 1;
-  // for (int i = 1; i <= 4; i++)
-  // {
-  //   for (int j = 1; j <= i; j++)
-  //   {
-  //     cout << num++; // post increment
-  //     num++;
-  //   }
-  //   cout << endl;
-  // }
+  int num = 1;
+  for (int i = 1; i <= 4; i++)
+  {
+    for (int j = 1; j <= i; j++)
+    {
+      cout << num++; // post increment
+      num++;
+    }
+    cout << endl;
+  }
 
   // Triangle pattern
 
@@ -224,19 +224,19 @@ int main()
 
   */
 
-  // for (int i = 1; i <= n; i++)
-  // {
-  //   for (int j = 1; j <= n - i; j++)
-  //   {
-  //     cout << ' ';
-  //   }
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = 1; j <= n - i; j++)
+    {
+      cout << ' ';
+    }
 
-  //   for (int k = 1; k <= 2 * i - 1; k++) // Odd
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    for (int k = 1; k <= 2 * i - 1; k++) // Odd
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
 
   /*
   
@@ -247,21 +247,21 @@ int main()
 
   */
 
-  // int n = 5;
+  int n = 5;
 
-  // for (int i = n; i >= 1; i--)
-  // {
-  //   for (int j = 1; j <= n - i; j++)
-  //   {
-  //     cout << ' ';
-  //   }
+  for (int i = n; i >= 1; i--)
+  {
+    for (int j = 1; j <= n - i; j++)
+    {
+      cout << ' ';
+    }
 
-  //   for (int k = 1; k <= 2 *i- 1; k++)
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    for (int k = 1; k <= 2 *i- 1; k++)
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
 
 
   //Diamond pattern
@@ -280,44 +280,44 @@ int main()
       
    */
 
-  //  int n = 10;
+   int n = 10;
 
-  // for (int i = 1; i <= n; i++)
-  // {
-  //   for (int j = 1; j <= n - i; j++)
-  //   {
-  //     cout << ' ';
-  //   }
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = 1; j <= n - i; j++)
+    {
+      cout << ' ';
+    }
 
-  //   for (int k = 1; k <= 2 * i - 1; k++)
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    for (int k = 1; k <= 2 * i - 1; k++)
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
 
-  // for (int i = n; i >=1; i--)
-  // {
-  //   for (int j = 1; j <= n - i; j++)
-  //   {
-  //     cout << ' ';
-  //   }
+  for (int i = n; i >=1; i--)
+  {
+    for (int j = 1; j <= n - i; j++)
+    {
+      cout << ' ';
+    }
 
-  //   for (int k = 1; k <= 2 * i - 1; k++) // 2*(n-1)+1
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    for (int k = 1; k <= 2 * i - 1; k++) // 2*(n-1)+1
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
 
   // Butterfly Pattern
   
   /*
 
-  *      * r1  1*-i
-  **    ** r2  2*-i
-  ***  *** r3  3*-i
-  ******** r4  4*-i
+  *      *
+  **    **
+  ***  ***
+  ********
   ********
   ***  ***
   **    **
@@ -325,51 +325,51 @@ int main()
 
   */
 
-  // int n = 5;
-  // for (int i = 1; i <= n; i++)
-  // {
-  //   //star
-  //   for (int l = 1; l <= i; l++)
-  //   {
-  //     cout << '*';
-  //   }
+  int n = 5;
+  for (int i = 1; i <= n; i++)
+  {
+    //star
+    for (int l = 1; l <= i; l++)
+    {
+      cout << '*';
+    }
 
-  //   //space
-  //   for (int r = 1; r <= 2*(n-i); r++)
-  //   {
-  //     cout << ' ';
-  //   }
+    //space
+    for (int r = 1; r <= 2*(n-i); r++)
+    {
+      cout << ' ';
+    }
     
-  //   //star
-  //   for (int r1 = 1; r1 <= i; r1++)
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    //star
+    for (int r1 = 1; r1 <= i; r1++)
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
 
   // // inverse
-  // for (int i = n; i >= 1; i--)
-  // {
-  //   //star
-  //   for (int l = 1; l <= i; l++)
-  //   {
-  //     cout << '*';
-  //   }
+  for (int i = n; i >= 1; i--)
+  {
+    //star
+    for (int l = 1; l <= i; l++)
+    {
+      cout << '*';
+    }
 
-  //   //space
-  //   for (int r = 1; r <= 2*(n-i); r++)
-  //   {
-  //     cout << ' ';
-  //   }
+    //space
+    for (int r = 1; r <= 2*(n-i); r++)
+    {
+      cout << ' ';
+    }
     
-  //   //star
-  //   for (int r1 = 1; r1 <= i; r1++)
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    //star
+    for (int r1 = 1; r1 <= i; r1++)
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
   
 
   //Rombus
@@ -384,22 +384,22 @@ int main()
 
   */
 
-  // int n = 5;
-  // for (int i = 1; i <= n; i++)
-  // {
+  int n = 5;
+  for (int i = 1; i <= n; i++)
+  {
 
-  //   for (int k = 1; k <= n-i; k++)
-  //   {
-  //     cout << ' ';
-  //   }
+    for (int k = 1; k <= n-i; k++)
+    {
+      cout << ' ';
+    }
     
-  //   for (int j = 1; j <= n; j++)
+    for (int j = 1; j <= n; j++)
 
-  //   {
-  //     cout << '*';
-  //   }
-  //   cout << endl;
-  // }
+    {
+      cout << '*';
+    }
+    cout << endl;
+  }
   
 
    /*
@@ -412,17 +412,17 @@ int main()
 
   */
 
-  // bool val = true;
-  // int n = 5;
-  // for (int i = 0; i < n; i++)
-  // {
-  //   for (int j = 0; j <= i; j++)
-  //   {
-  //     cout << val << " ";
-  //     val = !val;
-  //   }
-  //   cout << endl;
-  // }
+  bool val = true;
+  int n = 5;
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j <= i; j++)
+    {
+      cout << val << " ";
+      val = !val;
+    }
+    cout << endl;
+  }
   
 
 
