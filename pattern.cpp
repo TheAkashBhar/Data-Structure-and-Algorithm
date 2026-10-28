@@ -47,8 +47,8 @@ int main()
           cout << '*';
       }
       cout << endl;
-
-  }
+ 
+    }
 
   // Inverted Pyramid
 
