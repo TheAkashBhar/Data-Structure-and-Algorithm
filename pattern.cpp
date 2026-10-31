@@ -72,6 +72,7 @@ int main()
       cout << endl;
   }
 
+
   // Half pyramid patter
 
   /*
