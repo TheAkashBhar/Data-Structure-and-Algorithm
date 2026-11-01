@@ -42,6 +42,18 @@ void hello(){
     // Memory stack for function 
     // whenever function execute it create a layer and locate called stack frame 
 
+    /*
+    |          |
+    |__________|
+    |          |
+    |__________|
+    |          |  } stack frame
+    |__________|  }
+        stack
+    */
+   // *current function is at the top of the stack.
+
+
 #include <iostream>
 using namespace std;
 
@@ -74,6 +86,16 @@ int factorial(int a){
     }
     return fact;
 }
+
+//Scope--> area where a variable can be accessed or used.
+// local v/s Global scope of variables
+
+// local scope 
+// function , for loop , { code } etc.. ==> if any variable is assign in this then it cannot be access outside.
+
+// Global Scope 
+// Any variable declare ouside function can be access by others
+
 
 int main()
 {
